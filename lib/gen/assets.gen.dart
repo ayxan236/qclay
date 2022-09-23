@@ -12,96 +12,189 @@ import 'package:flutter/widgets.dart';
 class $AssetsFontsGen {
   const $AssetsFontsGen();
 
-  /// File path: assets/fonts/Formular-Black.ttf
-  String get formularBlack => 'assets/fonts/Formular-Black.ttf';
+  /// File path: assets/fonts/Helios-Extra Black Italic.ttf
+  String get heliosExtraBlackItalic =>
+      'assets/fonts/Helios-Extra Black Italic.ttf';
 
-  /// File path: assets/fonts/Formular-BlackItalic.ttf
-  String get formularBlackItalic => 'assets/fonts/Formular-BlackItalic.ttf';
+  /// File path: assets/fonts/Helios-Extra Black.ttf
+  String get heliosExtraBlack => 'assets/fonts/Helios-Extra Black.ttf';
 
-  /// File path: assets/fonts/Formular-Bold.ttf
-  String get formularBold => 'assets/fonts/Formular-Bold.ttf';
+  /// File path: assets/fonts/Helios-Extra Bold Italic.ttf
+  String get heliosExtraBoldItalic =>
+      'assets/fonts/Helios-Extra Bold Italic.ttf';
 
-  /// File path: assets/fonts/Formular-BoldItalic.ttf
-  String get formularBoldItalic => 'assets/fonts/Formular-BoldItalic.ttf';
+  /// File path: assets/fonts/Helios-Extra Bold.ttf
+  String get heliosExtraBold => 'assets/fonts/Helios-Extra Bold.ttf';
 
-  /// File path: assets/fonts/Formular-Italic.ttf
-  String get formularItalic => 'assets/fonts/Formular-Italic.ttf';
+  /// File path: assets/fonts/Helios-Extra Compressed1.ttf
+  String get heliosExtraCompressed1 =>
+      'assets/fonts/Helios-Extra Compressed1.ttf';
 
-  /// File path: assets/fonts/Formular-Light.ttf
-  String get formularLight => 'assets/fonts/Formular-Light.ttf';
+  /// File path: assets/fonts/Helios-Extra Italic.ttf
+  String get heliosExtraItalic => 'assets/fonts/Helios-Extra Italic.ttf';
 
-  /// File path: assets/fonts/Formular-LightItalic.ttf
-  String get formularLightItalic => 'assets/fonts/Formular-LightItalic.ttf';
+  /// File path: assets/fonts/Helios-Extra Light Italic1.ttf
+  String get heliosExtraLightItalic1 =>
+      'assets/fonts/Helios-Extra Light Italic1.ttf';
 
-  /// File path: assets/fonts/Formular-Medium.ttf
-  String get formularMedium => 'assets/fonts/Formular-Medium.ttf';
+  /// File path: assets/fonts/Helios-Extra Light1.ttf
+  String get heliosExtraLight1 => 'assets/fonts/Helios-Extra Light1.ttf';
 
-  /// File path: assets/fonts/Formular-MediumItalic.ttf
-  String get formularMediumItalic => 'assets/fonts/Formular-MediumItalic.ttf';
+  /// File path: assets/fonts/Helios-Extra Thin Italic1.ttf
+  String get heliosExtraThinItalic1 =>
+      'assets/fonts/Helios-Extra Thin Italic1.ttf';
 
-  /// File path: assets/fonts/Formular.ttf
-  String get formular => 'assets/fonts/Formular.ttf';
+  /// File path: assets/fonts/Helios-Extra Thin1.ttf
+  String get heliosExtraThin1 => 'assets/fonts/Helios-Extra Thin1.ttf';
 
-  /// File path: assets/fonts/Gilroy-Black.ttf
-  String get gilroyBlack => 'assets/fonts/Gilroy-Black.ttf';
+  /// File path: assets/fonts/Helios-Extra.ttf
+  String get heliosExtra => 'assets/fonts/Helios-Extra.ttf';
 
-  /// File path: assets/fonts/Gilroy-BlackItalic.ttf
-  String get gilroyBlackItalic => 'assets/fonts/Gilroy-BlackItalic.ttf';
+  /// File path: assets/fonts/Helios-ExtraCompressed.ttf
+  String get heliosExtraCompressed => 'assets/fonts/Helios-ExtraCompressed.ttf';
 
-  /// File path: assets/fonts/Gilroy-Bold.ttf
-  String get gilroyBold => 'assets/fonts/Gilroy-Bold.ttf';
+  /// File path: assets/fonts/Helios-ExtraLight Italic.ttf
+  String get heliosExtraLightItalic =>
+      'assets/fonts/Helios-ExtraLight Italic.ttf';
 
-  /// File path: assets/fonts/Gilroy-BoldItalic.ttf
-  String get gilroyBoldItalic => 'assets/fonts/Gilroy-BoldItalic.ttf';
+  /// File path: assets/fonts/Helios-ExtraLight.ttf
+  String get heliosExtraLight => 'assets/fonts/Helios-ExtraLight.ttf';
 
-  /// File path: assets/fonts/Gilroy-ExtraBold.ttf
-  String get gilroyExtraBold => 'assets/fonts/Gilroy-ExtraBold.ttf';
+  /// File path: assets/fonts/Helios-ExtraThin Italic.ttf
+  String get heliosExtraThinItalic =>
+      'assets/fonts/Helios-ExtraThin Italic.ttf';
 
-  /// File path: assets/fonts/Gilroy-ExtraBoldItalic.ttf
-  String get gilroyExtraBoldItalic => 'assets/fonts/Gilroy-ExtraBoldItalic.ttf';
+  /// File path: assets/fonts/Helios-ExtraThin.ttf
+  String get heliosExtraThin => 'assets/fonts/Helios-ExtraThin.ttf';
 
-  /// File path: assets/fonts/Gilroy-Heavy.ttf
-  String get gilroyHeavy => 'assets/fonts/Gilroy-Heavy.ttf';
+  /// File path: assets/fonts/HeliosExtBlackC-Italic.eot
+  String get heliosExtBlackCItalicEot =>
+      'assets/fonts/HeliosExtBlackC-Italic.eot';
 
-  /// File path: assets/fonts/Gilroy-HeavyItalic.ttf
-  String get gilroyHeavyItalic => 'assets/fonts/Gilroy-HeavyItalic.ttf';
+  /// File path: assets/fonts/HeliosExtBlackC-Italic.woff
+  String get heliosExtBlackCItalicWoff =>
+      'assets/fonts/HeliosExtBlackC-Italic.woff';
 
-  /// File path: assets/fonts/Gilroy-Light.ttf
-  String get gilroyLight => 'assets/fonts/Gilroy-Light.ttf';
+  /// File path: assets/fonts/HeliosExtBlackC-Italic.woff2
+  String get heliosExtBlackCItalicWoff2 =>
+      'assets/fonts/HeliosExtBlackC-Italic.woff2';
 
-  /// File path: assets/fonts/Gilroy-LightItalic.ttf
-  String get gilroyLightItalic => 'assets/fonts/Gilroy-LightItalic.ttf';
+  /// File path: assets/fonts/HeliosExtBlackC.eot
+  String get heliosExtBlackCEot => 'assets/fonts/HeliosExtBlackC.eot';
 
-  /// File path: assets/fonts/Gilroy-Medium.ttf
-  String get gilroyMedium => 'assets/fonts/Gilroy-Medium.ttf';
+  /// File path: assets/fonts/HeliosExtBlackC.woff
+  String get heliosExtBlackCWoff => 'assets/fonts/HeliosExtBlackC.woff';
 
-  /// File path: assets/fonts/Gilroy-MediumItalic.ttf
-  String get gilroyMediumItalic => 'assets/fonts/Gilroy-MediumItalic.ttf';
+  /// File path: assets/fonts/HeliosExtBlackC.woff2
+  String get heliosExtBlackCWoff2 => 'assets/fonts/HeliosExtBlackC.woff2';
 
-  /// File path: assets/fonts/Gilroy-Regular.ttf
-  String get gilroyRegular => 'assets/fonts/Gilroy-Regular.ttf';
+  /// File path: assets/fonts/HeliosExtC-Bold.eot
+  String get heliosExtCBoldEot => 'assets/fonts/HeliosExtC-Bold.eot';
 
-  /// File path: assets/fonts/Gilroy-RegularItalic.ttf
-  String get gilroyRegularItalic => 'assets/fonts/Gilroy-RegularItalic.ttf';
+  /// File path: assets/fonts/HeliosExtC-Bold.woff
+  String get heliosExtCBoldWoff => 'assets/fonts/HeliosExtC-Bold.woff';
 
-  /// File path: assets/fonts/Gilroy-SemiBold.ttf
-  String get gilroySemiBold => 'assets/fonts/Gilroy-SemiBold.ttf';
+  /// File path: assets/fonts/HeliosExtC-Bold.woff2
+  String get heliosExtCBoldWoff2 => 'assets/fonts/HeliosExtC-Bold.woff2';
 
-  /// File path: assets/fonts/Gilroy-SemiBoldItalic.ttf
-  String get gilroySemiBoldItalic => 'assets/fonts/Gilroy-SemiBoldItalic.ttf';
+  /// File path: assets/fonts/HeliosExtC-BoldItalic.eot
+  String get heliosExtCBoldItalicEot =>
+      'assets/fonts/HeliosExtC-BoldItalic.eot';
 
-  /// File path: assets/fonts/Gilroy-Thin.ttf
-  String get gilroyThin => 'assets/fonts/Gilroy-Thin.ttf';
+  /// File path: assets/fonts/HeliosExtC-BoldItalic.woff
+  String get heliosExtCBoldItalicWoff =>
+      'assets/fonts/HeliosExtC-BoldItalic.woff';
 
-  /// File path: assets/fonts/Gilroy-ThinItalic.ttf
-  String get gilroyThinItalic => 'assets/fonts/Gilroy-ThinItalic.ttf';
+  /// File path: assets/fonts/HeliosExtC-BoldItalic.woff2
+  String get heliosExtCBoldItalicWoff2 =>
+      'assets/fonts/HeliosExtC-BoldItalic.woff2';
 
-  /// File path: assets/fonts/Gilroy-UltraLight.ttf
-  String get gilroyUltraLight => 'assets/fonts/Gilroy-UltraLight.ttf';
+  /// File path: assets/fonts/HeliosExtC-Italic.eot
+  String get heliosExtCItalicEot => 'assets/fonts/HeliosExtC-Italic.eot';
 
-  /// File path: assets/fonts/Gilroy-UltraLightItalic.ttf
-  String get gilroyUltraLightItalic =>
-      'assets/fonts/Gilroy-UltraLightItalic.ttf';
+  /// File path: assets/fonts/HeliosExtC-Italic.woff
+  String get heliosExtCItalicWoff => 'assets/fonts/HeliosExtC-Italic.woff';
+
+  /// File path: assets/fonts/HeliosExtC-Italic.woff2
+  String get heliosExtCItalicWoff2 => 'assets/fonts/HeliosExtC-Italic.woff2';
+
+  /// File path: assets/fonts/HeliosExtC.eot
+  String get heliosExtCEot => 'assets/fonts/HeliosExtC.eot';
+
+  /// File path: assets/fonts/HeliosExtC.woff
+  String get heliosExtCWoff => 'assets/fonts/HeliosExtC.woff';
+
+  /// File path: assets/fonts/HeliosExtC.woff2
+  String get heliosExtCWoff2 => 'assets/fonts/HeliosExtC.woff2';
+
+  /// File path: assets/fonts/HeliosExtLightC-Italic.eot
+  String get heliosExtLightCItalicEot =>
+      'assets/fonts/HeliosExtLightC-Italic.eot';
+
+  /// File path: assets/fonts/HeliosExtLightC-Italic.woff
+  String get heliosExtLightCItalicWoff =>
+      'assets/fonts/HeliosExtLightC-Italic.woff';
+
+  /// File path: assets/fonts/HeliosExtLightC-Italic.woff2
+  String get heliosExtLightCItalicWoff2 =>
+      'assets/fonts/HeliosExtLightC-Italic.woff2';
+
+  /// File path: assets/fonts/HeliosExtLightC.eot
+  String get heliosExtLightCEot => 'assets/fonts/HeliosExtLightC.eot';
+
+  /// File path: assets/fonts/HeliosExtLightC.woff
+  String get heliosExtLightCWoff => 'assets/fonts/HeliosExtLightC.woff';
+
+  /// File path: assets/fonts/HeliosExtLightC.woff2
+  String get heliosExtLightCWoff2 => 'assets/fonts/HeliosExtLightC.woff2';
+
+  /// File path: assets/fonts/HeliosExtThinC-Italic.eot
+  String get heliosExtThinCItalicEot =>
+      'assets/fonts/HeliosExtThinC-Italic.eot';
+
+  /// File path: assets/fonts/HeliosExtThinC-Italic.woff
+  String get heliosExtThinCItalicWoff =>
+      'assets/fonts/HeliosExtThinC-Italic.woff';
+
+  /// File path: assets/fonts/HeliosExtThinC-Italic.woff2
+  String get heliosExtThinCItalicWoff2 =>
+      'assets/fonts/HeliosExtThinC-Italic.woff2';
+
+  /// File path: assets/fonts/HeliosExtThinC.eot
+  String get heliosExtThinCEot => 'assets/fonts/HeliosExtThinC.eot';
+
+  /// File path: assets/fonts/HeliosExtThinC.woff
+  String get heliosExtThinCWoff => 'assets/fonts/HeliosExtThinC.woff';
+
+  /// File path: assets/fonts/HeliosExtThinC.woff2
+  String get heliosExtThinCWoff2 => 'assets/fonts/HeliosExtThinC.woff2';
+
+  /// File path: assets/fonts/HeliosExtraCompressedC.eot
+  String get heliosExtraCompressedCEot =>
+      'assets/fonts/HeliosExtraCompressedC.eot';
+
+  /// File path: assets/fonts/HeliosExtraCompressedC.woff
+  String get heliosExtraCompressedCWoff =>
+      'assets/fonts/HeliosExtraCompressedC.woff';
+
+  /// File path: assets/fonts/HeliosExtraCompressedC.woff2
+  String get heliosExtraCompressedCWoff2 =>
+      'assets/fonts/HeliosExtraCompressedC.woff2';
+
+  /// File path: assets/fonts/Monoska.eot
+  String get monoskaEot => 'assets/fonts/Monoska.eot';
+
+  /// File path: assets/fonts/Monoska.ttf
+  String get monoskaTtf => 'assets/fonts/Monoska.ttf';
+
+  /// File path: assets/fonts/Monoska.woff
+  String get monoskaWoff => 'assets/fonts/Monoska.woff';
+
+  /// File path: assets/fonts/Monoska.woff2
+  String get monoskaWoff2 => 'assets/fonts/Monoska.woff2';
+
+  /// File path: assets/fonts/stylesheet.css
+  String get stylesheet => 'assets/fonts/stylesheet.css';
 }
 
 class $AssetsI18nGen {

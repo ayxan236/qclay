@@ -8,7 +8,7 @@ class TransactionsEntity {
   });
   String image;
   bool isIncrease;
-  double cost;
+  int cost;
   String status;
   DateTime date;
 }

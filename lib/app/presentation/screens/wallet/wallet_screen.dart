@@ -34,24 +34,47 @@ class _WalletScreenState extends BaseBlocStateWidget<WalletScreen, WalletBloc, W
           constraints: BoxConstraints(maxHeight: mediaQuery.size.height),
           child: ScrollConfiguration(
             behavior: const DisableGrowEffectScrollBehavior(),
-            child: CustomScrollView(
-              physics: const ClampingScrollPhysics(),
-              slivers: [
-                SliverList(
-                  delegate: SliverChildListDelegate(
-                    [
-                      const SizedBox(height: 32),
-                      _buildHeader(),
-                      const SizedBox(height: 30),
-                      _buildBalanceCard(),
-                      const SizedBox(height: 30),
-                      _buildFrequentTransactions(),
-                      const SizedBox(height: 30),
-                      _buildTransactions(),
-                    ],
+            child: Stack(
+              children: [
+                Positioned.fill(
+                  right: 50,
+                  child: Align(
+                    alignment: Alignment.topRight,
+                    child: Container(
+                      height: 190,
+                      width: 190,
+                      decoration: BoxDecoration(
+                        boxShadow: [
+                          BoxShadow(
+                            blurRadius: 50,
+                            spreadRadius: 1,
+                            color: AppColors.red.withOpacity(0.1),
+                          )
+                        ]
+                      ),
+                    ),
                   ),
                 ),
-                SliverPadding(padding: EdgeInsets.only(bottom: 50))
+                CustomScrollView(
+                  physics: const ClampingScrollPhysics(),
+                  slivers: [
+                    SliverList(
+                      delegate: SliverChildListDelegate(
+                        [
+                          const SizedBox(height: 32),
+                          _buildHeader(),
+                          const SizedBox(height: 30),
+                          _buildBalanceCard(),
+                          const SizedBox(height: 30),
+                          _buildFrequentTransactions(),
+                          const SizedBox(height: 30),
+                          _buildTransactions(),
+                        ],
+                      ),
+                    ),
+                    SliverPadding(padding: EdgeInsets.only(bottom: 50))
+                  ],
+                ),
               ],
             ),
           ),

@@ -43,7 +43,6 @@ class Transactions extends StatelessWidget {
               ),
               child: Column(
                 children: [
-                  const SizedBox(height: 20),
                   _buildTransaction(transactions[1]),
                 ],
               ),

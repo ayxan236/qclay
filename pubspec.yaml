@@ -163,26 +163,30 @@ flutter:
     - assets/fonts/
 
   fonts:
-    - family: Gilroy
+    - family: Helios
       fonts:
-        - asset: assets/fonts/Gilroy-Light.ttf
+        - asset: assets/fonts/Helios-ExtraLight.ttf
           weight: 100
-        - asset: assets/fonts/Gilroy-Light.ttf
+        - asset: assets/fonts/Helios-ExtraLight.ttf
           weight: 200
-        - asset: assets/fonts/Gilroy-Light.ttf
+        - asset: assets/fonts/Helios-ExtraLight.ttf
           weight: 300
-        - asset: assets/fonts/Gilroy-Regular.ttf
+        - asset: assets/fonts/Helios-Extra.ttf
           weight: 400
-        - asset: assets/fonts/Gilroy-Medium.ttf
+        - asset: assets/fonts/Helios-Extra.ttf
           weight: 500
-        - asset: assets/fonts/Gilroy-Bold.ttf
+        - asset: assets/fonts/Helios-Extra Bold.ttf
           weight: 600
-        - asset: assets/fonts/Gilroy-Bold.ttf
+        - asset: assets/fonts/Helios-Extra Bold.ttf
           weight: 700
-        - asset: assets/fonts/Gilroy-Black.ttf
+        - asset: assets/fonts/Helios-Extra Black.ttf
           weight: 800
-        - asset: assets/fonts/Gilroy-Black.ttf
+        - asset: assets/fonts/Helios-Extra Black.ttf
           weight: 900
+    - family: Monoska
+      fonts:
+        - asset: assets/fonts/Monoska.ttf
+        
 
 flutter_icons:
   android: "launcher_icon"

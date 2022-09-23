@@ -1,10 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:qclay/gen/fonts.gen.dart';
 
 import 'app_colors.dart';
 
 class AppThemes {
   static final ThemeData appTheme = ThemeData(
+    fontFamily: FontFamily.helios,
     primaryColor: AppColors.primary,
     colorScheme: ColorScheme(
       brightness: Brightness.light,

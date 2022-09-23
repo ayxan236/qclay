@@ -10,6 +10,9 @@
 class FontFamily {
   FontFamily._();
 
-  /// Font family: Gilroy
-  static const String gilroy = 'Gilroy';
+  /// Font family: Helios
+  static const String helios = 'Helios';
+
+  /// Font family: Monoska
+  static const String monoska = 'Monoska';
 }

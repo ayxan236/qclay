@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:qclay/app/resources/app_colors.dart';
 import 'package:qclay/gen/assets.gen.dart';
+import 'package:qclay/gen/fonts.gen.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
 
 class BalanceCard extends StatelessWidget {
@@ -49,6 +50,7 @@ class BalanceCard extends StatelessWidget {
                 fontSize: 36,
                 fontWeight: FontWeight.w400,
                 color: AppColors.onPrimary,
+                fontFamily: FontFamily.monoska
               ),
             ),
           ],

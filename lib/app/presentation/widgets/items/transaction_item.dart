@@ -39,7 +39,7 @@ class TransactionItem extends StatelessWidget {
                   DateFormat("dd MMMM").format(transaction.date),
                   style: TextStyle(
                     fontSize: 12,
-                    fontWeight: FontWeight.w700,
+                    fontWeight: FontWeight.w400,
                     color: AppColors.textColor2,
                   ),
                 ),
@@ -47,12 +47,26 @@ class TransactionItem extends StatelessWidget {
             ),
           ],
         ),
-        Text(
-          (transaction.isIncrease ? "+" : "-") + " ${transaction.cost} \$VVS",
-          style: TextStyle(
-            fontSize: 16,
-            fontWeight: FontWeight.w700,
-            color: AppColors.onPrimary,
+        RichText(
+          text: TextSpan(
+            children: [
+              TextSpan(
+                text: ((transaction.isIncrease ? "+" : "-") + transaction.cost.toString()),
+                style: TextStyle(
+                  fontSize: 17,
+                  fontWeight: FontWeight.w700,
+                  color: AppColors.onPrimary,
+                ),
+              ),
+              TextSpan(
+                text: (" \$VVS"),
+                style: TextStyle(
+                  fontSize: 17,
+                  fontWeight: FontWeight.w400,
+                  color: AppColors.onPrimary.withOpacity(0.6),
+                ),
+              )
+            ],
           ),
         ),
       ],

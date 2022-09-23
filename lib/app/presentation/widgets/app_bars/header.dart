@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:qclay/gen/fonts.gen.dart';
 
 class HeaderWidget extends StatelessWidget {
   const HeaderWidget({super.key, required this.header, this.rightIcons, this.leftIcons, required this.subHeader});
@@ -31,7 +32,7 @@ class HeaderWidget extends StatelessWidget {
                   _buildSubTitle(),
                 ],
               )),
-          Expanded(child: SizedBox(width: 5)),
+          SizedBox(width: 5),
           if (rightIcons != null) rightIcons!,
         ],
       ),
@@ -44,11 +45,11 @@ class HeaderWidget extends StatelessWidget {
           children: [
             TextSpan(
               text: header.split(" ")[0] + " ",
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.w400),
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.w400,fontFamily: FontFamily.helios),
             ),
             TextSpan(
               text: header.split(" ")[1],
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700),
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700,fontFamily: FontFamily.helios),
             ),
           ],
         ),
